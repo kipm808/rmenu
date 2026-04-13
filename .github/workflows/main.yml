@@ -3,11 +3,10 @@ name: CI/CD - Build & Release rmenu
 on:
   push:
     branches: [ main ]
+    tags: [ '*' ]
   pull_request:
     branches: [ main ]
   workflow_dispatch:
-  push:
-    tags: [ '*' ]  # Triggers on any tag push (e.g., v1.0.0)
 
 permissions:
   contents: write
