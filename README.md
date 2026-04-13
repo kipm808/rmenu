@@ -1,3 +1,5 @@
+[![Latest Release](https://img.shields.io/github/v/release/kipm808/rmenu?display_name=tag&sort=semver)](https://github.com/kipm808/rmenu/releases)
+
 # rmenu
 
 `rmenu` is a simple Rust command-line menu framework.
